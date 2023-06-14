@@ -163,7 +163,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Ask me anything about Microsoft Technology Center!</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions related to Microsoft Technology Center</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions related to Microsoft Technology Center.</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}}>
